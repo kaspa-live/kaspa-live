@@ -10,7 +10,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.png"/>
             </Head>
 
-            <iframe src="http://kgi-testnet.daglabs-dev.com/" className={styles['kgi-frame']}>Something went wrong</iframe>
+            <iframe src="http://kgi-testnet.daglabs-dev.com/" className={styles['kgi-frame']} sandbox="allow-scripts">Something went wrong</iframe>
         </div>
     )
 }
