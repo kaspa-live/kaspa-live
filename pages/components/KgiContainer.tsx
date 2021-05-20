@@ -6,9 +6,11 @@ const KgiContainer = () => {
     const containerRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 
     useEffect(() => {
+        const kgiAddress = process.env.NEXT_PUBLIC_KGI_ADDRESS;
+
         const container = containerRef.current;
         const kgiFrameElement =
-            <iframe src="http://kgi-testnet.daglabs-dev.com/" className={styles['kgi-frame']}
+            <iframe src={kgiAddress} className={styles['kgi-frame']}
                     sandbox="allow-scripts">
                 Something went wrong
             </iframe>;

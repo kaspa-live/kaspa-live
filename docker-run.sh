@@ -4,6 +4,7 @@ set -e
 
 # Verify that all the required environment variables are set
 declare -A REQUIRED_VARIABLES
+REQUIRED_VARIABLES["KGI_ADDRESS"]="${KGI_ADDRESS}"
 REQUIRED_VARIABLES["WEB_PORT"]="${WEB_PORT}"
 
 REQUIRED_VARIABLE_NOT_SET=false
@@ -24,7 +25,8 @@ if [ true = "${REQUIRED_VARIABLE_NOT_SET}" ]; then
 fi
 
 # Build kaspa-live
-docker build -f ./Dockerfile -t kaspa-live:latest .
+NEXT_PUBLIC_KGI_ADDRESS="${KGI_ADDRESS}"
+docker build -f ./Dockerfile --build-arg NEXT_PUBLIC_KGI_ADDRESS="${NEXT_PUBLIC_KGI_ADDRESS}" -t kaspa-live:latest .
 
 # Start kaspa-live
 docker-compose up -d kaspa-live

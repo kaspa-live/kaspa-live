@@ -8,7 +8,8 @@ RUN npm install
 
 COPY . .
 
-RUN npm run export
+ARG NEXT_PUBLIC_KGI_ADDRESS
+RUN NEXT_PUBLIC_KGI_ADDRESS=${NEXT_PUBLIC_KGI_ADDRESS} npm run export
 
 FROM node:15.8.0-alpine
 WORKDIR /app
