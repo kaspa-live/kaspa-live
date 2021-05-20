@@ -1,0 +1,10 @@
+version: '3'
+services:
+  kaspa-live:
+    image: "kaspa-live:latest"
+    command:
+      - "serve"
+      - "--listen=${WEB_PORT}"
+    network_mode: host
+    user: root
+    restart: always

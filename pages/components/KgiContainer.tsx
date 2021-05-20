@@ -7,10 +7,11 @@ const KgiContainer = () => {
 
     useEffect(() => {
         const container = containerRef.current;
-        const kgiFrameElement = <iframe src="http://kgi-testnet.daglabs-dev.com/" className={styles['kgi-frame']}
-                                        sandbox="allow-scripts">
-            Something went wrong
-        </iframe>;
+        const kgiFrameElement =
+            <iframe src="http://kgi-testnet.daglabs-dev.com/" className={styles['kgi-frame']}
+                    sandbox="allow-scripts">
+                Something went wrong
+            </iframe>;
 
         container.innerHTML = renderToStaticMarkup(kgiFrameElement);
     }, []);
