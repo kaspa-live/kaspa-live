@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import KgiContainer from "./components/KgiContainer";
+import Header from "./components/Header";
+import {createMuiTheme, MuiThemeProvider} from "@material-ui/core";
 
-export default function Home() {
+const Home = () => {
     return (
         <div className={styles.container}>
             <Head>
@@ -11,7 +13,24 @@ export default function Home() {
                 <link rel="icon" href="/favicon.png"/>
             </Head>
 
-            <KgiContainer/>
+            <MuiThemeProvider theme={theme}>
+                <Header/>
+                <KgiContainer/>
+            </MuiThemeProvider>
         </div>
     )
-}
+};
+
+export default Home;
+
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main: "#175676"
+        },
+        secondary: {
+            main: "#d62839"
+        }
+    }
+});
+

@@ -1,0 +1,9 @@
+.title {
+    flex-grow: 1;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.grow {
+    flex-grow: 1;
+}
