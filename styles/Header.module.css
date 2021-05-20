@@ -1,9 +1,10 @@
-.title {
-    flex-grow: 1;
-    margin-top: 5px;
-    margin-left: 10px;
+.toolbar {
+    padding-left: 3vw;
 }
 
-.grow {
-    flex-grow: 1;
+.logo {
+    background-image: url("../public/kaspa.live.svg");
+    background-size: 100% 100%;
+    width: 64px;
+    height: 64px;
 }

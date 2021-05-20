@@ -8,8 +8,8 @@ const Home = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Kaspa.Live</title>
-                <meta name="description" content="Kaspa.Live"/>
+                <title>kaspa.live</title>
+                <meta name="description" content="kaspa.live"/>
                 <link rel="icon" href="/favicon.png"/>
             </Head>
 

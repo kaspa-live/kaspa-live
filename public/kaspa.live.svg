@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64.0px"
+   height="64.0px"
+   viewBox="0 0 64.0 64.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="kaspa.live.svg"
+   inkscape:version="1.0.2 (394de47547, 2021-03-26)">
+  <defs
+     id="defs186" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="-10.840563"
+     inkscape:cy="31.621109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid195" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata189">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="KASPA"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:42.3461px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.05865;"
+       x="2.5403173"
+       y="31.72208"
+       id="text204"
+       transform="scale(1.0586534,0.94459622)"><tspan
+         sodipodi:role="line"
+         id="tspan202"
+         x="2.5403173"
+         y="31.72208"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5846px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.05865;fill:#ffffff;">KASPA</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="LIVE">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:47.5524px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.18881;"
+       x="10.497396"
+       y="59.822639"
+       id="text209"
+       transform="scale(1.1888115,0.84117625)"><tspan
+         sodipodi:role="line"
+         id="tspan207"
+         x="10.497396"
+         y="59.822639"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.3612px;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.18881;fill:#ffffff;">LIVE</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="DOT">
+    <circle
+       style="fill:#ffffff"
+       id="path212"
+       cx="7.5"
+       cy="47.821407"
+       r="2.5" />
+  </g>
+</svg>
