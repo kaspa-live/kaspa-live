@@ -11,7 +11,7 @@ const KgiContainer = () => {
         const container = containerRef.current;
         const kgiFrameElement =
             <iframe src={kgiAddress} className={styles['kgi-frame']}
-                    sandbox="allow-scripts">
+                    sandbox="allow-scripts allow-popups">
                 Something went wrong
             </iframe>;
 
