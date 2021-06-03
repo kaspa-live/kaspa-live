@@ -1,0 +1,22 @@
+.docs-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1280px;
+    padding-top: 50px;
+}
+
+.docs-container .navigation {
+    width: 30%;
+    padding-top: 50px;
+}
+
+.docs-container .navigation li {
+    list-style: none;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.docs-container .content {
+    width: 70%;
+}
