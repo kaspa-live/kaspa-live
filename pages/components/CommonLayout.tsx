@@ -14,6 +14,7 @@ const CommonLayout = ({children}: { children: ReactNode }) => {
 
         <MuiThemeProvider theme={theme}>
             <Header/>
+            <div className={styles["header-margin"]}/>
             {children}
         </MuiThemeProvider>
     </div>

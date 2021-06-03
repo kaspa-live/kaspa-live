@@ -3,7 +3,7 @@ import styles from '../../styles/Header.module.css'
 
 const Header = () => {
     return (
-        <AppBar position="static">
+        <AppBar position="fixed">
             <Toolbar>
                 <div className={styles.toolbar}>
                     <div className={styles.logo}/>

@@ -4,3 +4,8 @@
     flex-direction: column;
     height: 100vh;
 }
+
+.header-margin {
+    min-height: 64px;
+    width: 100%;
+}

@@ -11,7 +11,8 @@ const Docs = () => {
                 </ul>
             </div>
             <div className={styles.content}>
-                <div id="what-is-kaspa">
+                <a id="what-is-kaspa" className={styles.anchor}/>
+                <div>
                     <h1>What is Kaspa?</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non nunc vitae
                         convallis. Sed quis ex quis neque dignissim fringilla nec dignissim sapien. Praesent volutpat
@@ -51,7 +52,9 @@ const Docs = () => {
                         ex semper tincidunt at sit amet tortor. Morbi malesuada nisi nec nulla sollicitudin tincidunt.
                         Curabitur bibendum eros nec tellus tempus varius. Quisque vestibulum in est ac bibendum. </p>
                 </div>
-                <div id="how-does-kaspa-work">
+
+                <a id="how-does-kaspa-work" className={styles.anchor}/>
+                <div>
                     <h1>How does Kaspa work?</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod non nunc vitae
                         convallis. Sed quis ex quis neque dignissim fringilla nec dignissim sapien. Praesent volutpat
