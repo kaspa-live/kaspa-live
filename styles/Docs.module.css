@@ -7,12 +7,13 @@
 .docs-container .navigation {
     position: fixed;
     padding-top: 50px;
+    width: 350px;
 }
 
 .docs-container .navigation li {
     list-style: none;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .docs-container .content {
