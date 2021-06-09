@@ -43,14 +43,9 @@ const faqItems: FaqItem[] = [
         answerText: "Kaspa is...",
     },
     {
-        anchorName: "how-is-kaspa-different-from-other-cryptocurrencies",
-        questionText: "How is Kaspa different from other cryptocurrencies?",
-        answerText: "Kaspa is different because...",
-    },
-    {
         anchorName: "whats-the-current-status-of-the-project",
         questionText: "What's the current status of the project?",
-        answerText: "The current status of the project is...",
+        answerText: "Kaspa Testnet has been launched on April 8th, 2021.",
     },
     {
         anchorName: "how-can-i-run-a-kaspa-node",
