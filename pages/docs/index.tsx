@@ -73,7 +73,8 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "when-will-mainnet-be-launched",
         questionText: "When will Mainnet be launched?",
-        answerText: "Mainnet will be launched at...",
+        answerText: "There isn't a set date but it's estimated that Mainnet will be launched in a year from the time " +
+            "of writing. (9th of June, 2021)",
     },
     {
         anchorName: "how-does-kaspa-work",
