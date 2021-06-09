@@ -31,3 +31,7 @@
 .docs-container .content .faq-item {
     margin-top: 50px;
 }
+
+.docs-container .content .answer-text a {
+    text-decoration: underline;
+}

@@ -2,6 +2,7 @@ import CommonLayout from "../components/CommonLayout";
 import styles from "../../styles/Docs.module.css";
 import DocsFaqNavigationItem from "../components/DocsFaqNavigationItem";
 import DocsFaqItem from "../components/DocsFaqItem";
+import {ReactFragment} from "react";
 
 const Docs = () => {
     return <CommonLayout>
@@ -31,7 +32,7 @@ export default Docs;
 type FaqItem = {
     anchorName: string,
     questionText: string,
-    answerText: string,
+    answerText: ReactFragment,
 };
 
 
@@ -59,7 +60,10 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "how-can-i-contribute",
         questionText: "How can I contribute?",
-        answerText: "You can contribute by...",
+        answerText: <>Code contributions may be made to the kaspad, Kaspa's main node repository.<br/>
+            For a list of good first issues please go <a
+                href="https://github.com/kaspanet/kaspad/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">here.</a>
+        </>,
     },
     {
         anchorName: "will-there-be-pre-mining",
