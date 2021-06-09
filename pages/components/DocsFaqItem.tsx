@@ -4,8 +4,8 @@ const DocsFaqItem = ({anchorName, questionText, answerText}:
                          { anchorName: string, questionText: string, answerText: string }) => {
     return <>
         <a id={anchorName} className={styles.anchor}/>
-        <div>
-            <h1>{questionText}</h1>
+        <div className={styles["faq-item"]}>
+            <h2>{questionText}</h2>
             <p>{answerText}</p>
         </div>
     </>

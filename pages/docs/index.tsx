@@ -15,6 +15,7 @@ const Docs = () => {
                 </ul>
             </div>
             <div className={styles.content}>
+                <h1>FAQ</h1>
                 {faqItems.map(faqItem =>
                     <DocsFaqItem
                         anchorName={faqItem.anchorName}

@@ -27,3 +27,7 @@
     top: -128px;
     visibility: hidden;
 }
+
+.docs-container .content .faq-item {
+    margin-top: 50px;
+}
