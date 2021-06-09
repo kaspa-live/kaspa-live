@@ -69,7 +69,8 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "will-testnet-coins-be-transferred-over-to-mainnet",
         questionText: "Will Testnet coins be transferred over to Mainnet?",
-        answerText: "Testnet means X, Mainnet means Y.",
+        answerText: "No. Testnet and Mainnet are entirely separate networks, each with its own blockDAG and its own " +
+            "rules.",
     },
     {
         anchorName: "when-will-mainnet-be-launched",
