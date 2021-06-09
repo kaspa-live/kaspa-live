@@ -68,7 +68,13 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "will-there-be-pre-mining",
         questionText: "Will there be any pre-mining? What about founder's rewards?",
-        answerText: "There will be neither pre-mining nor founder's rewards.",
+        answerText: <>There will be neither pre-mining nor founder's rewards.<br/>
+            <br/>
+            The original Kaspa researchers and developers are funded by <a href="https://www.daglabs.com/"
+                                                                           target="_blank">DAGLabs</a>,
+            a for-profit organization whose business model centers around mining Kaspa and the ASICs required for it.
+            DAGLabs will have the first-mover advantage as one of the first miners in the network.
+        </>,
     },
     {
         anchorName: "will-testnet-coins-be-transferred-over-to-mainnet",
