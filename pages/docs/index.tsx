@@ -43,8 +43,10 @@ const faqItems: FaqItem[] = [
         answerText: <>Kaspa is a cryptocurrency similar to Bitcoin. It is public, decentralized, and permissionless.
             Its security model is based on Proof-of-Work.<br/>
             <br/>
-            In Bitcoin, increasing transaction throughput negatively impacts its security. Kaspa aims to improve over
-            Bitcoin by replacing the blockchain with a blockDAG, which circumvents this issue altogether.<br/>
+            In Bitcoin, increasing transaction throughput negatively impacts its security. This sets an effective limit
+            to the amount of transactions that Bitcoin can process per second. (The commonly quoted figure is 7
+            transaction/second.) Kaspa aims to improve over Bitcoin by replacing the blockchain with a blockDAG, which
+            circumvents this issue altogether.<br/>
             <br/>
             Ori Newman, a Kaspa core developer, has written
             a pair of articles on <a
@@ -115,6 +117,6 @@ const faqItems: FaqItem[] = [
         anchorName: "when-will-mainnet-be-launched",
         questionText: "When will Mainnet be launched?",
         answerText: "There isn't a set date but it's estimated that Mainnet will be launched in a year from the time " +
-            "of writing. (9th of June, 2021)",
+            "of writing (9th of June, 2021).",
     },
 ];
