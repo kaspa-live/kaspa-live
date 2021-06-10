@@ -1,37 +1,14 @@
 .docs-container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     padding-top: 50px;
 }
 
-.docs-container .navigation {
-    position: fixed;
-    padding-top: 50px;
-    width: 350px;
+.docs-container .header {
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
 
-.docs-container .navigation li {
-    list-style: none;
-    font-size: 22px;
-    margin-top: 30px;
-}
-
-.docs-container .content {
-    width: 70%;
-    margin-left: 30%;
-}
-
-.docs-container .content .anchor {
-    display: block;
-    position: relative;
-    top: -128px;
-    visibility: hidden;
-}
-
-.docs-container .content .faq-item {
-    margin-top: 50px;
-}
-
-.docs-container .content .answer-text a {
+.docs-container a {
     text-decoration: underline;
 }
