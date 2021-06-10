@@ -43,6 +43,17 @@ const faqItems: FaqItem[] = [
         answerText: "Kaspa is...",
     },
     {
+        anchorName: "how-does-kaspa-work",
+        questionText: "How does Kaspa work?",
+        answerText: <>Kaspa is an implementation of the GHOSTDAG protocol, a greedy version of PHANTOM. Both protocols
+            were originally authored by Yonatan Sompolinsky, and may be found <a href="https://eprint.iacr.org/2018/104"
+                                                                                 target="_blank">here.</a><br/>
+            <br/>
+            Ori Newman, a Kaspad core developer, has written
+            an <a href="https://someone235.medium.com/scaling-bitcoin-with-blockdag-d785174a3402" target="_blank">in-depth
+                article</a> exploring the PHANTOM protocol.</>,
+    },
+    {
         anchorName: "whats-the-current-status-of-the-project",
         questionText: "What's the current status of the project?",
         answerText: "Kaspa Testnet has been launched on April 8th, 2021.",
@@ -90,10 +101,5 @@ const faqItems: FaqItem[] = [
         questionText: "When will Mainnet be launched?",
         answerText: "There isn't a set date but it's estimated that Mainnet will be launched in a year from the time " +
             "of writing. (9th of June, 2021)",
-    },
-    {
-        anchorName: "how-does-kaspa-work",
-        questionText: "How does Kaspa work?",
-        answerText: "Kaspa works by...",
     },
 ];
