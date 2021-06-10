@@ -16,3 +16,10 @@
 .faq-item-container a {
     text-decoration: underline;
 }
+
+.faq-item-container .anchor {
+    display: block;
+    position: relative;
+    top: -96px;
+    visibility: hidden;
+}

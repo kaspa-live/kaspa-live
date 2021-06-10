@@ -2,7 +2,6 @@ import CommonLayout from "../components/CommonLayout";
 import styles from "../../styles/Docs.module.css";
 import {ReactFragment} from "react";
 import {Accordion, AccordionDetails, AccordionSummary, Typography} from "@material-ui/core";
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 const Docs = () => {
     return <CommonLayout>
@@ -11,9 +10,9 @@ const Docs = () => {
             <div className={styles["faq-item-container"]}>
                 {faqItems.map(faqItem =>
                     <>
-                        <a id={faqItem.anchorName}/>
+                        <a id={faqItem.anchorName} className={styles.anchor}/>
                         <Accordion expanded={true}>
-                            <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
+                            <AccordionSummary onClick={() => window.location.hash = faqItem.anchorName}>
                                 <Typography variant="h5">{faqItem.questionText}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
