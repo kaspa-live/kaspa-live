@@ -69,7 +69,9 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "whats-the-current-status-of-the-project",
         questionText: "What's the current status of the project?",
-        answerText: "Kaspa Testnet has been launched on April 8th, 2021.",
+        answerText: <>Kaspa Testnet has been launched on April 8th, 2021.<br/>
+            The roadmap towards the Mainnet launch may be
+            seen on <a href="https://github.com/kaspanet/kaspad/projects/4" target="_blank">Github.</a></>,
     },
     {
         anchorName: "how-can-i-run-a-kaspa-node",
