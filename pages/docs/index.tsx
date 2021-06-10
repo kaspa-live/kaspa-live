@@ -39,8 +39,21 @@ type FaqItem = {
 const faqItems: FaqItem[] = [
     {
         anchorName: "what-is-kaspa",
-        questionText: "What is Kaspa?",
-        answerText: "Kaspa is...",
+        questionText: "What is Kaspa? How is Kaspa different from other cryptocurrencies?",
+        answerText: <>Kaspa is a cryptocurrency similar to Bitcoin. It is public, decentralized, and permissionless.
+            Its security model is based on Proof-of-Work.<br/>
+            <br/>
+            In Bitcoin, increasing transaction throughput negatively impacts its security. Kaspa aims to improve over
+            Bitcoin by replacing the blockchain with a blockDAG, which circumvents this issue altogether.<br/>
+            <br/>
+            Ori Newman, a Kaspad core developer, has written
+            a pair of articles on <a
+                href="https://someone235.medium.com/how-increasing-the-throughput-harms-bitcoins-security-76ed62313227"
+                target="_blank">Bitcoin's throughput/security dichotomy</a> and on <a
+                href="https://someone235.medium.com/scaling-bitcoin-with-blockdag-d785174a3402" target="_blank">how DAGs
+                avoid
+                it.</a>
+        </>,
     },
     {
         anchorName: "how-does-kaspa-work",
@@ -62,7 +75,7 @@ const faqItems: FaqItem[] = [
         anchorName: "how-can-i-run-a-kaspa-node",
         questionText: "How can I run a Kaspa node?",
         answerText: <>The most straightforward way to run a Kaspa node is to download
-            the <a href="https://github.com/kaspanet/kaspad/releases" target="_blank">latest binaries</a> of kaspad, the
+            the <a href="https://github.com/kaspanet/kaspad/releases" target="_blank">latest binaries</a> of Kaspad, the
             reference implementation of a Kaspa node. Once the binaries have been downloaded for your OS, simply run the
             kaspad executable.
         </>,
