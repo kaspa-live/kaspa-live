@@ -87,8 +87,9 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "how-can-i-contribute",
         questionText: "How can I contribute?",
-        answerText: <>Code contributions may be made to the <a href="https://github.com/kaspanet/kaspad/"
-                                                               target="_blank">kaspad,</a> Kaspa's main node repository.<br/>
+        answerText: <>Code contributions may be made to <a href="https://github.com/kaspanet/kaspad/"
+                                                           target="_blank">kaspad,</a> Kaspa's main node
+            repository.<br/>
             For a list of good first issues please go <a
                 href="https://github.com/kaspanet/kaspad/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"
                 target="_blank">here.</a>
@@ -104,14 +105,16 @@ const faqItems: FaqItem[] = [
             a for-profit organization whose business model centers around mining Kaspa and the ASICs required for it.
             DAGlabs will have the first-mover advantage as one of the first miners in the network.<br/>
             <br/>
-            Yonatan Sompolinsky, DAGlabs' founder, has written <a href="" target="_blank">an article</a> on the matter.
+            Yonatan Sompolinsky, DAGlabs' founder, has written <a
+                href="https://hashdag.medium.com/in-which-i-love-my-truly-truly-fair-60e74cbaaf7b" target="_blank">an
+                article</a> on the matter.
         </>,
     },
     {
         anchorName: "will-testnet-coins-be-transferred-over-to-mainnet",
         questionText: "Will Testnet coins be transferred over to Mainnet?",
         answerText: "No. Testnet and Mainnet are entirely separate networks, each with its own blockDAG and its own " +
-            "rules.",
+            "rules. Also note that Testnet may be reset from time to time, which erases all existing coins in the process.",
     },
     {
         anchorName: "when-will-mainnet-be-launched",
