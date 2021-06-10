@@ -46,7 +46,7 @@ const faqItems: FaqItem[] = [
             In Bitcoin, increasing transaction throughput negatively impacts its security. Kaspa aims to improve over
             Bitcoin by replacing the blockchain with a blockDAG, which circumvents this issue altogether.<br/>
             <br/>
-            Ori Newman, a Kaspad core developer, has written
+            Ori Newman, a Kaspa core developer, has written
             a pair of articles on <a
                 href="https://someone235.medium.com/how-increasing-the-throughput-harms-bitcoins-security-76ed62313227"
                 target="_blank">Bitcoin's throughput/security dichotomy</a> and on <a
@@ -62,7 +62,7 @@ const faqItems: FaqItem[] = [
             were originally authored by Yonatan Sompolinsky, and may be found <a href="https://eprint.iacr.org/2018/104"
                                                                                  target="_blank">here.</a><br/>
             <br/>
-            Ori Newman, a Kaspad core developer, has written
+            Ori Newman, a Kaspa core developer, has written
             an <a href="https://someone235.medium.com/scaling-bitcoin-with-blockdag-d785174a3402" target="_blank">in-depth
                 article</a> exploring the PHANTOM protocol.</>,
     },
@@ -75,7 +75,7 @@ const faqItems: FaqItem[] = [
         anchorName: "how-can-i-run-a-kaspa-node",
         questionText: "How can I run a Kaspa node?",
         answerText: <>The most straightforward way to run a Kaspa node is to download
-            the <a href="https://github.com/kaspanet/kaspad/releases" target="_blank">latest binaries</a> of Kaspad, the
+            the <a href="https://github.com/kaspanet/kaspad/releases" target="_blank">latest binaries</a> of kaspad, the
             reference implementation of a Kaspa node. Once the binaries have been downloaded for your OS, simply run the
             kaspad executable.
         </>,
