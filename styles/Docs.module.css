@@ -6,9 +6,13 @@
 
 .docs-container .header {
     margin-left: 50px;
-    margin-bottom: 25px;
 }
 
-.docs-container a {
+.faq-item-container {
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.faq-item-container a {
     text-decoration: underline;
 }

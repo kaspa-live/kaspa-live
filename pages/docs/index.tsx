@@ -8,16 +8,21 @@ const Docs = () => {
     return <CommonLayout>
         <div className={styles["docs-container"]}>
             <Typography variant="h3" className={styles.header}>FAQ</Typography>
-            {faqItems.map(faqItem =>
-                <Accordion>
-                    <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
-                        <Typography variant="h5">{faqItem.questionText}</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails>
-                        <Typography variant="body1">{faqItem.answerText}</Typography>
-                    </AccordionDetails>
-                </Accordion>
-            )}
+            <div className={styles["faq-item-container"]}>
+                {faqItems.map(faqItem =>
+                    <>
+                        <a id={faqItem.anchorName}/>
+                        <Accordion expanded={true}>
+                            <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
+                                <Typography variant="h5">{faqItem.questionText}</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails>
+                                <Typography variant="body1">{faqItem.answerText}</Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                    </>
+                )}
+            </div>
         </div>
     </CommonLayout>
 };
