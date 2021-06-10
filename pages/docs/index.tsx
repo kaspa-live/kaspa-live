@@ -50,7 +50,11 @@ const faqItems: FaqItem[] = [
     {
         anchorName: "how-can-i-run-a-kaspa-node",
         questionText: "How can I run a Kaspa node?",
-        answerText: "A Kaspa node can be run by...",
+        answerText: <>The most straightforward way to run a Kaspa node is to download
+            the <a href="https://github.com/kaspanet/kaspad/releases" target="_blank">latest binaries</a> of kaspad, the
+            reference implementation of a Kaspa node. Once the binaries have been downloaded for your OS, simply run the
+            kaspad executable.
+        </>,
     },
     {
         anchorName: "how-can-i-contribute",
@@ -68,9 +72,11 @@ const faqItems: FaqItem[] = [
         answerText: <>There will be neither pre-mining nor founder's rewards.<br/>
             <br/>
             The original Kaspa researchers and developers are funded by <a href="https://www.daglabs.com/"
-                                                                           target="_blank">DAGLabs</a>,
+                                                                           target="_blank">DAGlabs</a>,
             a for-profit organization whose business model centers around mining Kaspa and the ASICs required for it.
-            DAGLabs will have the first-mover advantage as one of the first miners in the network.
+            DAGlabs will have the first-mover advantage as one of the first miners in the network.<br/>
+            <br/>
+            Yonatan Sompolinsky, DAGlabs' founder, has written <a href="" target="_blank">an article</a> on the matter.
         </>,
     },
     {
