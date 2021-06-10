@@ -88,8 +88,10 @@ const faqItems: FaqItem[] = [
         anchorName: "how-can-i-contribute",
         questionText: "How can I contribute?",
         answerText: <>Code contributions may be made to <a href="https://github.com/kaspanet/kaspad/"
-                                                           target="_blank">kaspad,</a> Kaspa's main node
-            repository.<br/>
+                                                           target="_blank">kaspad,</a> the repository for Kaspa's main
+            node.<br/>
+            Documentation contributions may be made to <a href="https://github.com/kaspanet/docs/"
+                                                          target="_blank">the docs repository.</a><br/>
             For a list of good first issues please go <a
                 href="https://github.com/kaspanet/kaspad/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"
                 target="_blank">here.</a>
