@@ -5,7 +5,6 @@ set -e
 # Verify that all the required environment variables are set
 declare -A REQUIRED_VARIABLES
 REQUIRED_VARIABLES["KGI_ADDRESS"]="${KGI_ADDRESS}"
-REQUIRED_VARIABLES["WEB_PORT"]="${WEB_PORT}"
 
 REQUIRED_VARIABLE_NOT_SET=false
 for REQUIRED_VARIABLE_NAME in "${!REQUIRED_VARIABLES[@]}"; do
